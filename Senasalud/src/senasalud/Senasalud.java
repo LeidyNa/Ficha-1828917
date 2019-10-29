@@ -17,8 +17,11 @@ public class Senasalud {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-     String apellido=JOptionPane.showInputDialog(null,"Cual es tu apellido: ");
-     System.out.println("Su apellido es: "+apellido);
+     int edad=Integer.parseInt(JOptionPane.showInputDialog(null,"Cual es tu edad: "));
+     System.out.println("Su edad es: "+edad);
+     
+     String comida=JOptionPane.showInputDialog(null,"Cual es tu comida favorita:");
+     System.out.println("Su comida favorita es: "+comida);
     }
     
 }
